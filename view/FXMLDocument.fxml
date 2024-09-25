@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="800.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/REDES.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SA1" fitHeight="26.0" fitWidth="64.0" layoutX="154.0" layoutY="536.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/1.png" />
+         </image></ImageView>
+      <ImageView fx:id="SA2" fitHeight="26.0" fitWidth="64.0" layoutX="218.0" layoutY="536.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/1.png" />
+         </image></ImageView>
+      <ImageView fx:id="SA3" fitHeight="26.0" fitWidth="64.0" layoutX="282.0" layoutY="536.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/1.png" />
+         </image></ImageView>
+      <ImageView fx:id="SA4" fitHeight="26.0" fitWidth="64.0" layoutX="346.0" layoutY="536.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/1.png" />
+         </image></ImageView>
+      <ImageView fx:id="SA5" fitHeight="26.0" fitWidth="64.0" layoutX="410.0" layoutY="536.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/1.png" />
+         </image></ImageView>
+      <ImageView fx:id="SA6" fitHeight="26.0" fitWidth="64.0" layoutX="474.0" layoutY="535.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SA7" fitHeight="26.0" fitWidth="64.0" layoutX="538.0" layoutY="535.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SA8" fitHeight="26.0" fitWidth="64.0" layoutX="602.0" layoutY="535.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="T1" fitHeight="62.0" fitWidth="13.0" layoutX="212.0" layoutY="547.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="T2" fitHeight="62.0" fitWidth="13.0" layoutX="276.0" layoutY="547.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="T3" fitHeight="62.0" fitWidth="13.0" layoutX="340.0" layoutY="547.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="T4" fitHeight="62.0" fitWidth="13.0" layoutX="404.0" layoutY="547.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="T5" fitHeight="62.0" fitWidth="13.0" layoutX="468.0" layoutY="547.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="T6" fitHeight="62.0" fitWidth="13.0" layoutX="532.0" layoutY="547.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="T7" fitHeight="62.0" fitWidth="13.0" layoutX="596.0" layoutY="547.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SB1" fitHeight="26.0" fitWidth="64.0" layoutX="154.0" layoutY="596.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SB2" fitHeight="26.0" fitWidth="64.0" layoutX="218.0" layoutY="596.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SB3" fitHeight="26.0" fitWidth="64.0" layoutX="282.0" layoutY="596.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SB4" fitHeight="26.0" fitWidth="64.0" layoutX="346.0" layoutY="596.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SB5" fitHeight="26.0" fitWidth="64.0" layoutX="410.0" layoutY="596.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SB6" fitHeight="26.0" fitWidth="64.0" layoutX="474.0" layoutY="596.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SB7" fitHeight="26.0" fitWidth="64.0" layoutX="538.0" layoutY="596.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SB8" fitHeight="26.0" fitWidth="64.0" layoutX="602.0" layoutY="596.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/0.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="textMessageTransmissor" layoutX="21.0" layoutY="234.0" prefHeight="101.0" prefWidth="153.0" />
+      <TextArea fx:id="textMessageReceptor" editable="false" layoutX="625.0" layoutY="234.0" prefHeight="101.0" prefWidth="153.0" />
+      <Button fx:id="enviarMensagem" layoutX="329.0" layoutY="443.0" mnemonicParsing="false" onAction="#enviarMensagem" text="Enviar">
+         <font>
+            <Font name="DejaVu Sans Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="limparSelecao" layoutX="408.0" layoutY="444.0" mnemonicParsing="false" onAction="#limparSelecao" text="Limpar" textFill="RED">
+         <font>
+            <Font name="DejaVu Sans Bold" size="13.0" />
+         </font></Button>
+      <Slider fx:id="velocidadeFluxo" layoutX="329.0" layoutY="506.0" min="1.0" prefHeight="15.0" prefWidth="143.0" rotate="180.0" value="50.0" />
+      <TextArea fx:id="bitsEnviados" layoutX="143.0" layoutY="639.0" prefHeight="62.0" prefWidth="536.0" wrapText="true" />
+      <TextArea fx:id="bitsRecebidos" layoutX="143.0" layoutY="714.0" prefHeight="62.0" prefWidth="536.0" wrapText="true" />
+      <ChoiceBox fx:id="controleErro" layoutX="393.0" layoutY="142.0" prefWidth="150.0" style="-fx-background-radius: 50;" />
+      <ChoiceBox fx:id="codificacao" layoutX="225.0" layoutY="196.0" prefWidth="150.0" style="-fx-background-radius: 50;" />
+      <ChoiceBox fx:id="enquadramento" layoutX="225.0" layoutY="142.0" prefWidth="150.0" style="-fx-background-radius: 50;" />
+      <ChoiceBox fx:id="taxaDeErro" layoutX="329.0" layoutY="322.0" prefWidth="70.0" style="-fx-background-radius: 50;" />
+      <ChoiceBox fx:id="qtdBits" layoutX="414.0" layoutY="322.0" prefWidth="70.0" style="-fx-background-radius: 50;" />
+      <ImageView fx:id="erroNoMeio" fitHeight="101.0" fitWidth="117.0" layoutX="361.0" layoutY="528.0" opacity="0.84" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/erroNoMeio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="erro" fitHeight="101.0" fitWidth="101.0" layoutX="651.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/erro.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
